@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CFy-g0-zcp">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKg-nA-ioJ">
+                                <rect key="frame" x="0.0" y="265" width="200" height="70"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.58520247103758982" blue="0.070368000613495907" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="iHI-Zz-Tvt"/>
+                                </constraints>
+                                <state key="normal" title="Normal"/>
+                                <connections>
+                                    <action selector="normal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aGg-Cs-fK9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k01-XL-GMC">
+                                <rect key="frame" x="200" y="265" width="200" height="70"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.55512403242509278" blue="0.63514773101763944" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Gradient"/>
+                                <connections>
+                                    <action selector="gradient:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SXl-LJ-X9R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gO-PS-zeM">
+                                <rect key="frame" x="400" y="265" width="200" height="70"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.26551209993460534" green="0.79388812963776378" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Custom"/>
+                                <connections>
+                                    <action selector="custom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xEG-3B-RbD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6gO-PS-zeM" firstAttribute="centerY" secondItem="mKg-nA-ioJ" secondAttribute="centerY" id="2aH-6U-1gq"/>
+                            <constraint firstItem="6gO-PS-zeM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4jM-je-JB2"/>
+                            <constraint firstItem="k01-XL-GMC" firstAttribute="height" secondItem="mKg-nA-ioJ" secondAttribute="height" id="CJp-SQ-7y8"/>
+                            <constraint firstItem="k01-XL-GMC" firstAttribute="centerY" secondItem="mKg-nA-ioJ" secondAttribute="centerY" id="O3x-Bn-1AZ"/>
+                            <constraint firstItem="mKg-nA-ioJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ouv-Tv-yMY"/>
+                            <constraint firstItem="6gO-PS-zeM" firstAttribute="leading" secondItem="k01-XL-GMC" secondAttribute="trailing" id="P5B-fH-eTp"/>
+                            <constraint firstItem="6gO-PS-zeM" firstAttribute="height" secondItem="mKg-nA-ioJ" secondAttribute="height" id="YXk-r1-c7f"/>
+                            <constraint firstItem="6gO-PS-zeM" firstAttribute="width" secondItem="mKg-nA-ioJ" secondAttribute="width" id="lUb-14-qtN"/>
+                            <constraint firstItem="k01-XL-GMC" firstAttribute="width" secondItem="mKg-nA-ioJ" secondAttribute="width" id="mG8-Km-5Wk"/>
+                            <constraint firstItem="mKg-nA-ioJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nez-yD-ybb"/>
+                            <constraint firstItem="k01-XL-GMC" firstAttribute="leading" secondItem="mKg-nA-ioJ" secondAttribute="trailing" id="rgb-Z6-eTV"/>
+                            <constraint firstAttribute="trailing" secondItem="6gO-PS-zeM" secondAttribute="trailing" id="uGi-WR-rgB"/>
+                            <constraint firstItem="k01-XL-GMC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zpl-yv-yKj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="QIO-pX-WV3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="294"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qNH-p9-Jyb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CFy-g0-zcp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QfG-1d-7pF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="arX-8z-BVt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tFm-WP-k5S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-340" y="190"/>
+        </scene>
+    </scenes>
+</document>
