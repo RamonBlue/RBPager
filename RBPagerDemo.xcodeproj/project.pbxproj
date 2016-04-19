@@ -15,13 +15,13 @@
 		252633C01CBF2A7400728E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252633BE1CBF2A7400728E20 /* LaunchScreen.storyboard */; };
 		252633D21CBF2A8B00728E20 /* RBPagerHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 252633CD1CBF2A8B00728E20 /* RBPagerHeaderModel.m */; };
 		252633D31CBF2A8B00728E20 /* RBPagerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 252633CF1CBF2A8B00728E20 /* RBPagerHeaderView.m */; };
-		252633D61CBF350500728E20 /* RBPagerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 252633D51CBF350500728E20 /* RBPagerScrollView.m */; };
 		252633D91CBF87CD00728E20 /* RanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 252633D81CBF87CD00728E20 /* RanTool.m */; };
 		2539210D1CC6123400D012D9 /* RBNomalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2539210C1CC6123400D012D9 /* RBNomalViewController.m */; };
 		253921101CC6124300D012D9 /* RBGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2539210F1CC6124300D012D9 /* RBGradientViewController.m */; };
 		253921131CC6124F00D012D9 /* RBCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253921121CC6124F00D012D9 /* RBCustomViewController.m */; };
 		253921171CC6183200D012D9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 253921161CC6183200D012D9 /* icon.png */; };
 		253921191CC6184B00D012D9 /* hud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 253921181CC6184B00D012D9 /* hud.jpg */; };
+		7647F7A81CC692130057E980 /* RBPagerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7647F7A71CC692130057E980 /* RBPagerScrollView.m */; };
 		7673D4061CC0649E007D2F8B /* RBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7673D4051CC0649E007D2F8B /* RBTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +40,6 @@
 		252633CD1CBF2A8B00728E20 /* RBPagerHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBPagerHeaderModel.m; sourceTree = "<group>"; };
 		252633CE1CBF2A8B00728E20 /* RBPagerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBPagerHeaderView.h; sourceTree = "<group>"; };
 		252633CF1CBF2A8B00728E20 /* RBPagerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBPagerHeaderView.m; sourceTree = "<group>"; };
-		252633D41CBF350500728E20 /* RBPagerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBPagerScrollView.h; path = RBPagerDemo/RBPagerScrollView.h; sourceTree = SOURCE_ROOT; };
-		252633D51CBF350500728E20 /* RBPagerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBPagerScrollView.m; path = RBPagerDemo/RBPagerScrollView.m; sourceTree = SOURCE_ROOT; };
 		252633D71CBF87CD00728E20 /* RanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RanTool.h; sourceTree = "<group>"; };
 		252633D81CBF87CD00728E20 /* RanTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RanTool.m; sourceTree = "<group>"; };
 		2539210B1CC6123400D012D9 /* RBNomalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBNomalViewController.h; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		253921151CC617A700D012D9 /* RBPager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBPager.h; sourceTree = "<group>"; };
 		253921161CC6183200D012D9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		253921181CC6184B00D012D9 /* hud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hud.jpg; sourceTree = "<group>"; };
+		7647F7A61CC692130057E980 /* RBPagerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBPagerScrollView.h; sourceTree = "<group>"; };
+		7647F7A71CC692130057E980 /* RBPagerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBPagerScrollView.m; sourceTree = "<group>"; };
 		7673D4041CC0649E007D2F8B /* RBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTableViewController.h; sourceTree = "<group>"; };
 		7673D4051CC0649E007D2F8B /* RBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,8 +124,8 @@
 		252633C71CBF2A8B00728E20 /* RBPager */ = {
 			isa = PBXGroup;
 			children = (
-				252633D41CBF350500728E20 /* RBPagerScrollView.h */,
-				252633D51CBF350500728E20 /* RBPagerScrollView.m */,
+				7647F7A61CC692130057E980 /* RBPagerScrollView.h */,
+				7647F7A71CC692130057E980 /* RBPagerScrollView.m */,
 				252633CC1CBF2A8B00728E20 /* RBPagerHeaderModel.h */,
 				252633CD1CBF2A8B00728E20 /* RBPagerHeaderModel.m */,
 				252633CE1CBF2A8B00728E20 /* RBPagerHeaderView.h */,
@@ -210,7 +210,7 @@
 				252633D21CBF2A8B00728E20 /* RBPagerHeaderModel.m in Sources */,
 				252633D31CBF2A8B00728E20 /* RBPagerHeaderView.m in Sources */,
 				252633B81CBF2A7400728E20 /* ViewController.m in Sources */,
-				252633D61CBF350500728E20 /* RBPagerScrollView.m in Sources */,
+				7647F7A81CC692130057E980 /* RBPagerScrollView.m in Sources */,
 				253921101CC6124300D012D9 /* RBGradientViewController.m in Sources */,
 				252633B51CBF2A7400728E20 /* AppDelegate.m in Sources */,
 				7673D4061CC0649E007D2F8B /* RBTableViewController.m in Sources */,
