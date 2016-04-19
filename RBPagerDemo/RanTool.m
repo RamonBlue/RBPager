@@ -3,7 +3,7 @@
 //  shakalaka
 //
 //  Created by Ran on 15/8/18.
-//  Copyright (c) 2015年 gintong. All rights reserved.
+//  Copyright (c) 2015年 Justice. All rights reserved.
 //
 
 #import "RanTool.h"

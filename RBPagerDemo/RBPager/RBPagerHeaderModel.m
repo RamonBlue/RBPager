@@ -3,7 +3,7 @@
 //  ThusMyStyle
 //
 //  Created by RB on 15/9/30.
-//  Copyright (c) 2015年 gintong. All rights reserved.
+//  Copyright (c) 2015年 Justice. All rights reserved.
 //
 
 #import "RBPagerHeaderModel.h"
